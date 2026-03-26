@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Text;
 public class UnitEconomics
+// Тестовий варіант для перевірки
 {
     public class VariantData
     {
