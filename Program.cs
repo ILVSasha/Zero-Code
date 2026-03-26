@@ -10,6 +10,13 @@ public class UnitEconomics
         public int TotalRevenue { get; set; } 
         public int AvgUsageMonths { get; set; } 
         public int ActiveClients { get; set; } 
+        public int COGS { get; set; }
+
+        public int MarketingCost { get; set; }
+        public int NewClients { get; set; }
+        public int TotalRevenue { get; set; } 
+        public int AvgUsageMonths { get; set; } 
+        public int ActiveClients { get; set; } 
         public int COGS { get; set; } 
     }
 
