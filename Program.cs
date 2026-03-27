@@ -3,6 +3,7 @@ using System.Text;
 public class UnitEconomics
 // Тестовий варіант для перевірки
 // Черговий доданий варіант для перевірки
+// Додаткова перевірка якості робоии
 {
     public class VariantData
     {
