@@ -6,7 +6,6 @@ public class UnitEconomics
 // Додаткова перевірка якості роботи
 // Тестовий коментар для системи n8n
 // Продовження тестового режиму
-// Microsoft
 {
     public class VariantData
     {
