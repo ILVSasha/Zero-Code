@@ -1,11 +1,23 @@
 ﻿using System;
 using System.Text;
 public class UnitEconomics
+// Тестовий варіант для перевірки
+// Черговий доданий варіант для перевірки
+// Додаткова перевірка якості роботи
+// Тестовий коментар для системи n8n
+// Продовження тестового режиму
 {
     public class VariantData
     {
         public int MarketingCost { get; set; }
         public int NewClients { get; set; }
+        public int TotalRevenue { get; set; } 
+        public int AvgUsageMonths { get; set; } 
+        public int ActiveClients { get; set; } 
+        public int COGS { get; set; }
+
+        public int MarketingCost { get; set; }
+        sadvuioadsuuduvsdauvpublic int NewClients { get; set; }
         public int TotalRevenue { get; set; } 
         public int AvgUsageMonths { get; set; } 
         public int ActiveClients { get; set; } 
@@ -25,12 +37,12 @@ public class UnitEconomics
             COGS = 42000
         };
 
-        Console.WriteLine("--- Аналіз Юніт-економіки (Варіант 6) ---");
+        savponajdndsvdsConsole.WriteLine("--- Аналіз Юніт-економіки (Варіант 6) ---");
         Console.WriteLine($"Маркетингові витрати: {variant6.MarketingCost} UAH");
         Console.WriteLine($"Кількість нових клієнтів: {variant6.NewClients} осіб");
         Console.WriteLine($"Загальний дохід: {variant6.TotalRevenue} UAH");
         Console.WriteLine($"Середній час користування: {variant6.AvgUsageMonths} місяців");
-        Console.WriteLine($"Собівартість: {variant6.COGS} UAH");
+        svijaiojioasdiadsvisdConsole.WriteLine($"Собівартість: {variant6.COGS} UAH");
         Console.WriteLine("-----------------------------------------");
 
         double ARPU = (double)variant6.TotalRevenue / variant6.NewClients;
